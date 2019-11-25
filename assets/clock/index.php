@@ -4,7 +4,7 @@ require 'src/ClockworkException.php';
 
 
    function sendSMS($msg1,$msg2){
-     $API_KEY = 'beab34dc96955996f4f29a524d682e7357cfec06';
+     $API_KEY = '5bfd5b2b91197192bfbb935574547d25fd3e1f4c';
      try
      {
       // Create a Clockwork object using your API key

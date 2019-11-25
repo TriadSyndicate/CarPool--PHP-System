@@ -45,11 +45,11 @@ if ($recordalreadyexists!='TRUE') {
      $_SESSION['driveraddress'] = $driveraddress;
      $_SESSION['drivercomm'] = $drivercommunity;
      $_SESSION['datebooked'] = $datebooked;
-    /* $drivermsg = array('to'=>'254'.$driverphone, 'message'=>$drivermessage);
+    $drivermsg = array('to'=>'254'.$driverphone, 'message'=>$drivermessage);
      $usermsg = array('to'=>'254'.$userphone, 'message'=>$usermessage);
     include '../clock/index.php';
-    sendSMS($drivermsg,$usermsg);*/
-    include '../../html.php';
+    sendSMS($drivermsg,$usermsg);
+    //include '../../html.php';
   }
 }else {
   header('Location: ../../failed.php');
